@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Contact Management System</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Management System</h1>
+    <div>
+      <button onclick="showCreateForm()">Create Contact</button>
+      <button onclick="fetchContacts()">Fetch Contacts</button>
+      <input type="text" id="searchInput" placeholder="Search by Name or Phone">
+      <button onclick="searchContact()">Search</button>
+      <button onclick="exportToCSV()">Export to CSV</button>
+    </div>
+
+    <div id="createContactForm" style="display: none;">
+      <!-- Form for creating a contact -->
+    </div>
+
+    <div id="contactsList">
+      <!-- Display contacts list -->
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

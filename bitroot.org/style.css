@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
+  #contactsList {
+    margin-top: 20px;
+  }
+  
+  .contact {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
